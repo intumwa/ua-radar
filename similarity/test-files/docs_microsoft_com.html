@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="hasSidebar hasPageActions hasBreadcrumb reference reference has-default-focus theme-light" lang="en-us" dir="ltr" data-css-variable-support="true" data-authenticated="false" data-auth-status-determined="false" data-target="docs" x-ms-format-detection="none">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta property="og:title" content="File.Exists(String) Method (System.IO)" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.microsoft.com/en-us/dotnet/api/system.io.file.exists" />
+			<meta property="og:description" content="Determines whether the specified file exists. " />
+		<meta property="og:image" content="https://docs.microsoft.com/en-us/media/logos/logo-ms-social.png" />
+		<meta property="og:image:alt" content="Microsoft Logo" />
+
+	<meta name="twitter:card" content="summary" />
+
+	<meta name="twitter:site" content="@docsmsft" />
+
+	<meta name="color-scheme" content="light dark">
+
+
+	<meta name="APILocation" content="System.IO.FileSystem.dll" />
+<meta name="APILocation" content="mscorlib.dll" />
+<meta name="APILocation" content="netstandard.dll" />
+<meta name="APILocation" content="System.Runtime.dll" />
+<meta name="APIName" content="System.IO.File.Exists" />
+<meta name="APIType" content="Assembly" />
+<meta name="apiPlatform" content="dotnet" />
+<meta name="author" content="dotnet-bot" />
+<meta name="breadcrumb_path" content="/dotnet/breadcrumb/toc.json" />
+<meta name="depot_name" content="VS.dotnet-api-docs" />
+<meta name="description" content="Determines whether the specified file exists. " />
+<meta name="document_id" content="e45eceaa-9d7f-67b5-1d92-58776c2e137d" />
+<meta name="document_version_independent_id" content="ff90e4c3-d9ad-5f91-c3b8-851b6b577649" />
+<meta name="gitcommit" content="https://github.com/dotnet/dotnet-api-docs/blob/69b31f05e916fc9c1f5c70f95df415b564ceab4a/xml/System.IO/File.xml" />
+<meta name="locale" content="en-us" />
+<meta name="monikers" content="dotnet-uwp-10.0" />
+<meta name="monikers" content="net-5.0" />
+<meta name="monikers" content="net-6.0" />
+<meta name="monikers" content="netcore-1.0" />
+<meta name="monikers" content="netcore-1.1" />
+<meta name="monikers" content="netcore-2.0" />
+<meta name="monikers" content="netcore-2.1" />
+<meta name="monikers" content="netcore-2.2" />
+<meta name="monikers" content="netcore-3.0" />
+<meta name="monikers" content="netcore-3.1" />
+<meta name="monikers" content="netframework-1.1" />
+<meta name="monikers" content="netframework-2.0" />
+<meta name="monikers" content="netframework-3.0" />
+<meta name="monikers" content="netframework-3.5" />
+<meta name="monikers" content="netframework-4.0" />
+<meta name="monikers" content="netframework-4.5" />
+<meta name="monikers" content="netframework-4.5.1" />
+<meta name="monikers" content="netframework-4.5.2" />
+<meta name="monikers" content="netframework-4.6" />
+<meta name="monikers" content="netframework-4.6.1" />
+<meta name="monikers" content="netframework-4.6.2" />
+<meta name="monikers" content="netframework-4.7" />
+<meta name="monikers" content="netframework-4.7.1" />
+<meta name="monikers" content="netframework-4.7.2" />
+<meta name="monikers" content="netframework-4.8" />
+<meta name="monikers" content="netstandard-1.3" />
+<meta name="monikers" content="netstandard-1.4" />
+<meta name="monikers" content="netstandard-1.6" />
+<meta name="monikers" content="netstandard-2.0" />
+<meta name="monikers" content="netstandard-2.1" />
+<meta name="monikers" content="xamarinandroid-7.1" />
+<meta name="monikers" content="xamarinios-10.8" />
+<meta name="monikers" content="xamarinmac-3.0" />
+<meta name="ms.assetid" content="System.IO.File.Exists*" />
+<meta name="ms.author" content="dotnetcontent" />
+<meta name="ms.date" content="04/30/2018" />
+<meta name="ms.prod" content="dotnet-api" />
+<meta name="ms.technology" content="system.io" />
+<meta name="ms.topic" content="managed-reference" />
+<meta name="namespace" content="System.IO" />
+<meta name="original_content_git_url" content="https://github.com/dotnet/dotnet-api-docs/blob/live/xml/System.IO/File.xml" />
+<meta name="page_kind" content="method" />
+<meta name="page_type" content="dotnet" />
+<meta name="products" content="https://authoring-docs-microsoft.poolparty.biz/devrel/7696cda6-0510-47f6-8302-71bb5d2e28cf" />
+<meta name="recommendations" content="true" />
+<meta name="schema" content="NetMember" />
+<meta name="search.mshattr.devlang" content="csharp vb fsharp cpp" />
+<meta name="site_name" content="Docs" />
+<meta name="toc_rel" content="_splitted/system.io/toc.json" />
+<meta name="TopicType" content="apiref" />
+<meta name="uhfHeaderId" content="MSDocsHeader-DotNet" />
+<meta name="updated_at" content="2021-12-10 11:34 AM" />
+
+
+	<meta name="scope" content=".NET" />
+<link href="https://docs.microsoft.com/en-us/dotnet/api/system.io.file.exists" rel="canonical">
+	<title>File.Exists(String) Method (System.IO) | Microsoft Docs</title>
+
+		<link rel="stylesheet" href="/_themes/docs.theme/master/en-us/_themes/styles/421afba0.site-ltr.css ">
+
+	
+
+	<script id="msdocs-script">
+	var msDocs = {
+		data: {
+			timeOrigin: Date.now(),
+			contentLocale: 'en-us',
+			contentDir: 'ltr',
+			userLocale: 'en-us',
+			userDir: 'ltr',
+			pageTemplate: 'Reference',
+			brand: '',
+			context: {
+
+			},
+			hasBinaryRating: true,
+			hasGithubIssues: false,
+			showFeedbackReport: false,
+			enableTutorialFeedback: false,
+			feedbackSystem: 'None',
+			feedbackGitHubRepo: '',
+			feedbackProductUrl: '',
+			contentGitUrl: 'https://github.com/dotnet/dotnet-api-docs/blob/main/xml/System.IO/File.xml',
+			defaultDevLang: 'csharp',
+			extendBreadcrumb: true,
+			isEditDisplayable: true,
+			hideViewSource: false,
+			hasPageActions: true,
+			hasBookmark: true,
+			hasShare: true,
+			hasRecommendations: true,
+			contributors: [
+						{ name: "miloszkukla", url: "https://github.com/miloszkukla" },
+						{ name: "gewarren", url: "https://github.com/gewarren" },
+						{ name: "Jozkee", url: "https://github.com/Jozkee" },
+						{ name: "carlossanlop", url: "https://github.com/carlossanlop" },
+						{ name: "danmoseley", url: "https://github.com/danmoseley" },
+						{ name: "mairaw", url: "https://github.com/mairaw" },
+						{ name: "gukoff", url: "https://github.com/gukoff" },
+						{ name: "merarischroeder", url: "https://github.com/merarischroeder" },
+						{ name: "live1206", url: "https://github.com/live1206" },
+						{ name: "BillWagner", url: "https://github.com/BillWagner" },
+						{ name: "jkotas", url: "https://github.com/jkotas" },
+						{ name: "nxtn", url: "https://github.com/nxtn" },
+						{ name: "VSC-Service-Account", url: "https://github.com/VSC-Service-Account" },
+						{ name: "maillouxc", url: "https://github.com/maillouxc" },
+						{ name: "JeroenOortwijn", url: "https://github.com/JeroenOortwijn" },
+						{ name: "Youssef1313", url: "https://github.com/Youssef1313" },
+						{ name: "SIkebe", url: "https://github.com/SIkebe" },
+						{ name: "kaloyankrastev", url: "https://github.com/kaloyankrastev" },
+						{ name: "SeanKilleen", url: "https://github.com/SeanKilleen" },
+						{ name: "jguadagno", url: "https://github.com/jguadagno" },
+						{ name: "nschonni", url: "https://github.com/nschonni" },
+						{ name: "svick", url: "https://github.com/svick" },
+						{ name: "yishengjin1413", url: "https://github.com/yishengjin1413" },
+						{ name: "dend", url: "https://github.com/dend" },
+						{ name: "Petermarcu", url: "https://github.com/Petermarcu" },
+						{ name: "pkulikov", url: "https://github.com/pkulikov" },
+						{ name: "samrueby", url: "https://github.com/samrueby" },
+						{ name: "OzBob", url: "https://github.com/OzBob" },
+						{ name: "TianqiZhang", url: "https://github.com/TianqiZhang" },
+						{ name: "guardrex", url: "https://github.com/guardrex" }
+],
+		},
+		functions:{}
+	};
+	</script>
+	<script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+	<script src="https://js.monitor.azure.com/scripts/c/ms.jsll-3.min.js"></script>
+
+	<script src="/_themes/docs.theme/master/en-us/_themes/global/5cce29c0.deprecation.js"></script>
+		<script src="/_themes/docs.theme/master/en-us/_themes/scripts/754bfc1c.index-docs.js"></script>
+</head>
+
+<body lang="en-us" dir="ltr">
+	<div class="header-holder has-default-focus">
+		<a href="#main" class="skip-to-main-link has-outline-color-text visually-hidden-until-focused position-fixed has-inner-focus focus-visible top-0 left-0 right-0 padding-xs has-text-centered has-body-background" tabindex="1">Skip to main content</a>
+
+		<div hidden id="cookie-consent-holder"></div>
+
+		<div id="unsupported-browser" style="
+			background-color: white;
+			color: black;
+			padding: 16px;
+			border-bottom: 1px solid grey;"
+			hidden
+		>
+			<div style="max-width: 800px; margin: 0 auto;">
+				<p style="font-size: 24px">This browser is no longer supported.</p>
+				<p style="font-size: 16px; margin-top: 16px;">Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.</p>
+				<div style="margin-top: 12px;">
+					<a href="https://go.microsoft.com/fwlink/p/?LinkID=2092881 "
+						style="
+						background-color: #0078d4;
+						border: 1px solid #0078d4;
+						color: white;
+						padding: 6px 12px;
+						border-radius: 2px;
+						display: inline-block;
+						">
+Download Microsoft Edge					</a>
+					<a href="https://docs.microsoft.com/en-US/lifecycle/faq/internet-explorer-microsoft-edge"
+						style="
+							background-color: white;
+							padding: 6px 12px;
+							border: 1px solid #505050;
+							color: #171717;
+							border-radius: 2px;
+							display: inline-block;
+							">
+More info					</a>
+				</div>
+			</div>
+
+		</div>
+		<!-- liquid-tag banners global -->
+		<div id="headerAreaHolder" data-bi-name="header">
+<header role="banner" itemscope="itemscope" itemtype="http://schema.org/Organization">
+	<div class="nav-bar">
+		<div class="nav-bar-brand">
+			<a itemprop="url" href="https://www.microsoft.com" aria-label="Microsoft" class="nav-bar-button">
+				<div class="nav-bar-logo has-background-image theme-display is-light" role="presentation" aria-hidden="true" itemprop="logo" itemscope="itemscope"></div>
+				<div class="nav-bar-logo has-background-image theme-display is-dark is-high-contrast" role="presentation" aria-hidden="true" itemprop="logo" itemscope="itemscope"></div>
+			</a>
+		</div>
+	</div>
+	<div class="nav-bar border-top is-hidden-mobile"></div>
+</header>		</div>
+
+						<div class="content-header uhf-container has-padding has-default-focus border-bottom-none" data-bi-name="content-header">
+					<nav class="breadcrumb-holder has-padding-none has-padding-left-medium-tablet has-padding-right-medium-tablet has-padding-left-none-uhf-tablet has-padding-left-none-uhf-tablet has-padding-none-desktop flex-grow-1" data-bi-name="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList" role="navigation" aria-label="Breadcrumb">
+						<ul id="page-breadcrumbs" class="breadcrumbs-deprecated">
+						</ul>
+					</nav>
+				<div class="content-header-controls">
+					<button type="button" class="contents-button button" data-bi-name="contents-expand" aria-haspopup="true">
+						<span class="icon"><span class="docon docon-menu" aria-hidden="true"></span></span>
+						<span class="contents-expand-title">Contents</span>
+					</button>
+					<button type="button" class="ap-collapse-behavior ap-expanded button" data-bi-name="ap-collapse" aria-controls="action-panel">
+						<span class="icon"><span class="docon docon-exit-mode" aria-hidden="true"></span></span>
+						<span>Exit focus mode</span>
+					</button>
+				</div>
+				<div class="has-padding-none-tablet padding-xs font-size-sm display-flex justify-content-space-between flex-grow-1 page-action-holder">
+					<ul class="is-hidden-mobile action-list justify-content-flex-start has-flex-justify-content-end-tablet display-flex flex-wrap-wrap flex-grow-1 is-unstyled">
+						<li>
+<div class="language dropdown has-caret is-inline-block border border-none-tablet">
+	<button class="dropdown-trigger button button-clear button-sm" aria-controls="language-menu" aria-expanded="false" title="Language" data-bi-name="language">
+		<span class="icon is-hidden-desktop margin-none">
+			<span class="docon docon-code-lang" aria-hidden="true"></span>
+		</span>
+		<span class="lang-title is-visually-hidden-touch align-self-flex-start is-hidden-portrait" dir="ltr">Language</span>
+		<span class="icon is-hidden-mobile is-hidden-tablet-only" aria-hidden="true">
+			<span class="docon docon-chevron-down-light expanded-indicator"></span>
+		</span>
+	</button>
+	<div class="dropdown-menu has-padding-small language-selector" name="language-selector" role="menu">
+		<ul data-bi-name="language-links" dir="ltr">
+			<li>
+				<a class="button button-clear button-sm button-block" data-bi-name="lang-csharp" tabindex="0" aria-selected="false"></a>
+			</li>
+			<li>
+				<a class="button button-clear button-sm button-block" data-bi-name="lang-vb" tabindex="0" aria-selected="false"></a>
+			</li>
+			<li>
+				<a class="button button-clear button-sm button-block" data-bi-name="lang-fsharp" tabindex="0" aria-selected="false"></a>
+			</li>
+			<li>
+				<a class="button button-clear button-sm button-block" data-bi-name="lang-cpp" tabindex="0" aria-selected="false"></a>
+			</li>
+		</ul>
+	</div>
+</div>						</li>
+						<li hidden>
+							<a id="lang-link" class="button button button-clear button-sm" title="Read in English" data-bi-name="language-toggle">
+								<span id="lang-link-icon" class="icon docon docon-locale-globe" aria-hidden="true"></span>
+								<span id="lang-link-text" class="is-visually-hidden-touch is-hidden-portrait"></span>
+							</a>
+						</li>
+						<li>
+							<button type="button" class="collection button button-clear button-sm has-inner-focus" data-list-type="collection" data-bi-name="collection" title="Add to collection">
+								<span class="icon" aria-hidden="true">
+									<span class="docon docon-circle-addition has-text-primary"></span>
+								</span>
+								<span class="collection-status is-visually-hidden-touch is-hidden-portrait">Save</span>
+							</button>
+						</li>
+								<li id="contenteditbtn">
+									<a href="https://github.com/dotnet/dotnet-api-docs/blob/main/xml/System.IO/File.xml" class=" button button-clear button-sm has-inner-focus" title="Edit This Document" data-bi-name="edit" data-original_content_git_url="https://github.com/dotnet/dotnet-api-docs/blob/live/xml/System.IO/File.xml" data-original_content_git_url_template="{repo}/blob/{branch}/xml/System.IO/File.xml" data-pr_repo="" data-pr_branch="">
+									<span class="icon" aria-hidden="true">
+										<span class="docon docon-edit-outline"></span>
+									</span>
+									<span class="is-visually-hidden-touch is-hidden-portrait">Edit</span>
+								</a>
+							</li>
+						<li>
+<div class="sharing dropdown has-caret">
+	<button class="dropdown-trigger button button-clear button-sm button-block justify-content-flex-start has-inner-focus" aria-controls="sharing-menu" aria-expanded="false" title="Share This Document" data-bi-name="share">
+		<span class="icon" aria-hidden="true">
+			<span class="docon docon-sharing"></span>
+		</span>
+		<span class="is-visually-hidden-touch is-hidden-portrait">Share</span>
+	</button>
+	<div class="dropdown-menu has-padding-small" id="sharing-menu">
+		<ul data-bi-name="share-links">
+			<li>
+				<a class="button button-clear button-sm button-block justify-content-flex-start has-inner-focus share-twitter" data-bi-name="twitter">
+					<span class="icon">
+						<span class="docon docon-brand-twitter has-text-primary" aria-hidden="true"></span>
+					</span>
+					<span>Twitter</span>
+				</a>
+			</li>
+			<li>
+				<a class="button button-clear button-sm button-block justify-content-flex-start has-inner-focus share-linkedin" data-bi-name="linkedin">
+					<span class="icon">
+						<span class="docon docon-brand-linkedin has-text-primary" aria-hidden="true"></span>
+					</span>
+					<span>LinkedIn</span>
+				</a>
+			</li>
+			<li>
+				<a class="button button-clear button-sm button-block justify-content-flex-start has-inner-focus share-facebook" data-bi-name="facebook">
+					<span class="icon">
+						<span class="docon docon-brand-facebook has-text-primary" aria-hidden="true"></span>
+					</span>
+					<span>Facebook</span>
+				</a>
+			</li>
+			<li>
+				<a class="button button-clear button-sm button-block justify-content-flex-start has-inner-focus share-email" data-bi-name="email">
+					<span class="icon">
+						<span class="docon docon-mail-message-fill has-text-primary" aria-hidden="true"></span>
+					</span>
+					<span>Email</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>						</li>
+					</ul>
+					<button type="button" class="border contents-button  button button-clear button-sm is-hidden-tablet has-inner-focus" aria-label="Contents" data-bi-name="contents-expand">
+						<span class="icon">
+							<span class="docon docon-editor-list-bullet" aria-hidden="true"></span>
+						</span>
+						<span class="contents-expand-title">Table of contents</span>
+					</button>
+					<div class="is-invisible"></div>
+					<div class="is-hidden-tablet level-item is-flexible level-right">
+<div class="language dropdown has-caret is-inline-block border border-none-tablet">
+	<button class="dropdown-trigger button button-clear button-sm" aria-controls="language-menu" aria-expanded="false" title="Language" data-bi-name="language">
+		<span class="icon is-hidden-desktop margin-none">
+			<span class="docon docon-code-lang" aria-hidden="true"></span>
+		</span>
+		<span class="lang-title is-visually-hidden-touch align-self-flex-start is-hidden-portrait" dir="ltr">Language</span>
+		<span class="icon is-hidden-mobile is-hidden-tablet-only" aria-hidden="true">
+			<span class="docon docon-chevron-down-light expanded-indicator"></span>
+		</span>
+	</button>
+	<div class="dropdown-menu has-padding-small language-selector" name="language-selector" role="menu">
+		<ul data-bi-name="language-links" dir="ltr">
+			<li>
+				<a class="button button-clear button-sm button-block" data-bi-name="lang-csharp" tabindex="0" aria-selected="false"></a>
+			</li>
+			<li>
+				<a class="button button-clear button-sm button-block" data-bi-name="lang-vb" tabindex="0" aria-selected="false"></a>
+			</li>
+			<li>
+				<a class="button button-clear button-sm button-block" data-bi-name="lang-fsharp" tabindex="0" aria-selected="false"></a>
+			</li>
+			<li>
+				<a class="button button-clear button-sm button-block" data-bi-name="lang-cpp" tabindex="0" aria-selected="false"></a>
+			</li>
+		</ul>
+	</div>
+</div>						<button type="button" class="page-actions-button  button button-clear button-sm is-hidden-tablet has-inner-focus border is-full-height  has-margin-left-small" aria-label="Page Actions" data-bi-name="pageactions">
+							<span class="icon">
+								<span class="docon docon-more-vertical" aria-hidden="true"></span>
+							</span>
+						</button>
+					</div>
+				</div>
+			</div>
+
+
+
+		<div id="disclaimer-holder" class="has-overflow-hidden has-default-focus">
+			<!-- liquid-tag banners sectional -->
+		</div>
+	</div>
+
+	<div class="mainContainer  uhf-container has-top-padding  has-default-focus" data-bi-name="body">
+
+		<div class="columns has-large-gaps is-gapless-mobile ">
+
+			<div id="left-container" class="left-container is-hidden-mobile column is-one-third-tablet is-one-quarter-desktop">
+				<nav id="affixed-left-container" class="position-fixed display-flex flex-direction-column" role="navigation" aria-label="Primary"></nav>
+			</div>
+
+			<!-- .primary-holder -->
+			<section class="primary-holder column is-two-thirds-tablet is-three-quarters-desktop">
+				<!--div.columns -->
+				<div class="columns is-gapless-mobile has-large-gaps ">
+
+
+					<div id="main-column" class="column  is-full is-8-desktop">
+
+						<main id="main" role="main" class="content " data-bi-name="content" lang="en-us" dir="ltr">
+
+
+
+							
+
+
+
+
+
+							<!-- <content> -->
+								        <a id="System_IO_File_Exists_System_String_"></a>
+
+<h1>File.<wbr>Exists(String) Method</h1>
+
+<div class="display-flex-tablet justify-content-space-between-tablet">
+	<ul class="metadata page-metadata" data-bi-name="page info">
+		<li>Reference</li>
+	</ul>
+<div class="dropdown" data-hide-on-archived="">
+	<button class="dropdown-trigger link-button font-size-sm" aria-controls="options" aria-expanded="false" title="">
+			Is this page helpful?
+	</button>
+	<div class="dropdown-menu border-radius" id="options" role="menu">
+
+	<div class="padding-xs" data-bi-name="rating" data-binary-rating-container="">
+		<div class="binary-rating" data-binary-rating-hide-on-submit="">
+			<form class="feedback-verbatim-form" data-feedback-verbatim-form="" id="reference-binary-rating-form">
+				<div class="binary-rating-buttons">
+					<h3 id="binary-rating-heading" class="font-weight-semibold margin-top-none margin-bottom-xs font-size-h5 has-caret">Please rate your experience</h3>
+					<div class="buttons">
+						<button class="thumb-rating like margin-right-xxs button button-clear button-sm" data-binary-rating-response="rating-yes" title="Yes" type="button" data-bi-name="rating-yes" data-bi-sat="1">
+							<span aria-hidden="true" class="icon docon docon-like"></span>
+							<span>Yes</span>
+						</button>
+						<button class="thumb-rating dislike button button-clear button-sm" data-binary-rating-response="rating-no" title="No" data-bi-name="rating-no" type="button" data-bi-sat="0">
+							<span aria-hidden="true" class="icon docon docon-dislike"></span>
+							<span>No</span>
+						</button>
+					</div>
+				</div>
+				<div id="binary-verbatim-container" class="font-size-xs margin-top-xs">
+					<div class="verbatim-textarea">
+						<label for="binary-rating-textarea" class="visually-hidden">
+							Any additional feedback?
+						</label>
+						<textarea id="binary-rating-textarea" data-binary-rating-text="" rows="4" maxlength="999" placeholder="Any additional feedback?" class="textarea has-inner-focus"></textarea>
+					</div>
+					<p class="has-line-height-reset has-text-wrap">Feedback will be sent to Microsoft: By pressing the submit button, your feedback will be used to improve Microsoft products and services. <a href="https://privacy.microsoft.com/en-us/privacystatement" data-linktype="external">Privacy policy.</a></p>
+					<div class="buttons buttons-right margin-top-xs has-margin-right-extra-small">
+						<button class="submit-rating button button-primary button-filled button-sm" data-bi-name="rating-verbatim" data-binary-rating-submit="" type="submit" disabled="">Submit</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<p data-binary-rating-onsubmit-message="reference-binary-rating-form" tabindex="-1" class="margin-none inner-focus" hidden="">
+			Thank you.
+		</p>
+	</div>
+	</div>
+</div>
+</div>
+
+<h2 id="definition">Definition</h2>
+
+<div class="metadata">
+		<dl class="attributeList">
+			<dt>Namespace:</dt>
+			<dd>
+				<span class="break-text">   <a class="xref" href="system.io?view=net-6.0" data-linktype="relative-path">System.IO</a> </span>
+			</dd>
+		</dl>
+
+
+		<dl class="attributeList" data-moniker=" dotnet-uwp-10.0 ">
+			<dt>Assemblies:</dt><dd>mscorlib.dll, System.IO.FileSystem.dll</dd>
+		</dl>
+		<dl class="attributeList" data-moniker=" net-5.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netstandard-1.3 netstandard-1.4 netstandard-1.6 ">
+			<dt>Assembly:</dt><dd>System.IO.FileSystem.dll</dd>
+		</dl>
+		<dl class="attributeList" data-moniker=" net-6.0 ">
+			<dt>Assembly:</dt><dd>System.Runtime.dll</dd>
+		</dl>
+		<dl class="attributeList" data-moniker=" netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">
+			<dt>Assembly:</dt><dd>mscorlib.dll</dd>
+		</dl>
+		<dl class="attributeList" data-moniker=" netstandard-2.0 netstandard-2.1 ">
+			<dt>Assembly:</dt><dd>netstandard.dll</dd>
+		</dl>
+
+
+</div><div class="alert is-primary is-hidden moniker-display-boilerplate">
+    <p class="alert-title">
+      <span class="docon docon-status-info-outline" aria-hidden="true"></span> Important
+    </p>
+    <p>Some information relates to prerelease product that may be substantially modified before it’s released. Microsoft makes no warranties, express or implied, with respect to the information provided here.</p>
+</div>
+
+<nav id="center-doc-outline" class="doc-outline is-hidden-desktop" data-bi-name="intopic toc" role="navigation" aria-label="On page navigation">
+  <h3>In this article</h3>
+</nav>
+
+
+<div data-moniker=" dotnet-uwp-10.0 net-5.0 net-6.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.3 netstandard-1.4 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">
+
+
+	<div class="summaryHolder">
+		<div class="summary clearFix">
+			<p>Determines whether the specified file exists.</p>
+
+		</div>
+	</div>
+	<pre class="wrap" data-moniker=" dotnet-uwp-10.0 net-5.0 net-6.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.3 netstandard-1.4 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 "><code class="cpp lang-cpp" dir="ltr">public:
+ static bool Exists(System::String ^ path);</code></pre>
+	<pre class="wrap" data-moniker=" dotnet-uwp-10.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.3 netstandard-1.4 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 "><code class="csharp lang-csharp" dir="ltr">public static bool Exists (string path);</code></pre>
+	<pre class="wrap" data-moniker=" net-5.0 net-6.0 "><code class="csharp lang-csharp" dir="ltr">public static bool Exists (string? path);</code></pre>
+	<pre class="wrap" data-moniker=" dotnet-uwp-10.0 net-5.0 net-6.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.3 netstandard-1.4 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 "><code class="fsharp lang-fsharp" dir="ltr">static member Exists : string -&gt; bool</code></pre>
+	<pre class="wrap" data-moniker=" dotnet-uwp-10.0 net-5.0 net-6.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.3 netstandard-1.4 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 "><code class="vb lang-vb" dir="ltr">Public Shared Function Exists (path As String) As Boolean</code></pre>
+	<h4 class="propertyInfoTitle stack">Parameters</h4>
+	<div class="propertyInfo">
+		<dl class="parameterList">
+			<dt>
+			
+			<span data-moniker=" dotnet-uwp-10.0 net-5.0 net-6.0 netcore-1.0 netcore-1.1 netcore-2.0 netcore-2.1 netcore-2.2 netcore-3.0 netcore-3.1 netframework-1.1 netframework-2.0 netframework-3.0 netframework-3.5 netframework-4.0 netframework-4.5 netframework-4.5.1 netframework-4.5.2 netframework-4.6 netframework-4.6.1 netframework-4.6.2 netframework-4.7 netframework-4.7.1 netframework-4.7.2 netframework-4.8 netstandard-1.3 netstandard-1.4 netstandard-1.6 netstandard-2.0 netstandard-2.1 xamarinandroid-7.1 xamarinios-10.8 xamarinmac-3.0 ">path</span>
+			</dt>
+			<dd>
+				<a href='system.string?view=net-6.0' data-linktype="relative-path">String</a>
+				
+			</dd>
+		</dl>
+		<p>The file to check.</p>
+
+	</div>
+	<h4 class="propertyInfoTitle stack">Returns</h4>
+
+
+    <dl class="propertyInfo">
+	    <dt>
+			<a href='system.boolean?view=net-6.0' data-linktype="relative-path">Boolean</a>
+			
+		</dt>
+    </dl>
+	
+	<p><code data-dev-comment-type="langword">true</code> if the caller has the required permissions and <code data-dev-comment-type="paramref">path</code> contains the name of an existing file; otherwise, <code data-dev-comment-type="langword">false</code>. This method also returns <code data-dev-comment-type="langword">false</code> if <code data-dev-comment-type="paramref">path</code> is <code data-dev-comment-type="langword">null</code>, an invalid path, or a zero-length string. If the caller does not have sufficient permissions to read the specified file, no exception is thrown and the method returns <code data-dev-comment-type="langword">false</code> regardless of the existence of <code data-dev-comment-type="paramref">path</code>.</p>
+
+
+
+
+	<h2>Examples</h2>
+	<p>The following example determines if a file exists.</p>
+<pre>
+<code class="lang-csharp">string curFile = @&quot;c:\temp\test.txt&quot;;
+Console.WriteLine(File.Exists(curFile) ? &quot;File exists.&quot; : &quot;File does not exist.&quot;);
+</code></pre>
+<pre>
+<code class="lang-vb">Dim curFile As String = &quot;c:\temp\test.txt&quot;
+Console.WriteLine(If(File.Exists(curFile), &quot;File exists.&quot;, &quot;File does not exist.&quot;))
+</code></pre>
+
+
+	<h2>Remarks</h2>
+	<p>The <a href="system.io.file.exists?view=net-6.0" class="no-loc" data-linktype="relative-path">Exists</a> method should not be used for path validation, this method merely checks if the file specified in <code>path</code> exists. Passing an invalid path to <a href="system.io.file.exists?view=net-6.0" class="no-loc" data-linktype="relative-path">Exists</a> returns <code>false</code>. To check whether the path contains any invalid characters, you can call the <a href="system.io.path.getinvalidpathchars?view=net-6.0" class="no-loc" data-linktype="relative-path">GetInvalidPathChars</a> method to retrieve the characters that are invalid for the file system. You can also create a regular expression to test the whether the path is valid for your environment. For examples of acceptable paths, see <a href="system.io.file?view=net-6.0" class="no-loc" data-linktype="relative-path">File</a>.</p>
+<p>To check if a directory exists, see <a href="system.io.directory.exists?view=net-6.0" class="no-loc" data-linktype="relative-path">Directory.Exists</a>.</p>
+<p>Be aware that another process can potentially do something with the file in between the time you call the <a href="system.io.file.exists?view=net-6.0" class="no-loc" data-linktype="relative-path">Exists</a> method and perform another operation on the file, such as <a href="system.io.file.delete?view=net-6.0" class="no-loc" data-linktype="relative-path">Delete</a>.</p>
+<p>The <code>path</code> parameter is permitted to specify relative or absolute path information. Relative path information is interpreted as relative to the current working directory. To obtain the current working directory, see <a href="system.io.directory.getcurrentdirectory?view=net-6.0" class="no-loc" data-linktype="relative-path">GetCurrentDirectory</a>.</p>
+<p>If <code>path</code> describes a directory, this method returns <code>false</code>. Trailing spaces are removed from the <code>path</code> parameter before determining if the file exists.</p>
+<p>The <a href="system.io.file.exists?view=net-6.0" class="no-loc" data-linktype="relative-path">Exists</a> method returns <code>false</code> if any error occurs while trying to determine if the specified file exists. This can occur in situations that raise exceptions such as passing a file name with invalid characters or too many characters, a failing or missing disk, or if the caller does not have permission to read the file.</p>
+
+
+
+
+	 <h2>Applies to</h2>
+	 <div class="table-scroll-wrapper moniker-applies-to-table">
+      <table class='table border has-inner-borders has-header-background has-row-header-background'>
+        <thead>
+        </thead>
+      </table>
+    </div>
+
+
+	<h2>See also</h2>
+	<ul>
+<li><a href="system.io.directory.exists?view=net-6.0#System_IO_Directory_Exists_System_String_" class="no-loc" data-linktype="relative-path">Exists(String)</a></li>
+<li><a href="/en-us/dotnet/standard/io/" data-linktype="absolute-path">File and Stream I/O</a></li>
+<li><a href="/en-us/dotnet/standard/io/how-to-read-text-from-a-file" data-linktype="absolute-path">Reading Text From A File</a></li>
+<li><a href="/en-us/dotnet/standard/io/how-to-write-text-to-a-file" data-linktype="absolute-path">How to: Write Text to a File</a></li>
+</ul>
+
+
+</div>
+
+							<!-- </content> -->
+
+						</main>
+
+						<!-- fallback rating section for reference only, remove after a week or so -->
+							<div data-fallback-rating-section data-hide-on-archived hidden>
+								<hr class="hr" />
+								<div  class="dropdown">
+									<button class="dropdown-trigger link-button font-size-sm"
+										aria-controls="options" aria-expanded="false" title="Is this page helpful?">
+Is this page helpful?									</button>
+									<div class="dropdown-menu has-width-300-tablet border-radius" id="options" role="menu">
+
+
+<div class="padding-xs" data-bi-name="rating" data-binary-rating-container>
+    <div class="binary-rating" data-binary-rating-hide-on-submit>
+		<form class="feedback-verbatim-form" data-feedback-verbatim-form id="main-page-rating-container">
+        	<div class="binary-rating-buttons">
+				<h3 id="binary-rating-heading" class="font-weight-semibold margin-top-none margin-bottom-xs font-size-h5 has-caret">Please rate your experience</h3>
+				<div class="buttons">
+					<button class="thumb-rating like margin-right-xxs button button-clear button-sm"
+						data-binary-rating-response="rating-yes"
+						title="Yes"
+						type="button"
+						data-bi-name="rating-yes"
+						data-bi-sat="1">
+						<span aria-hidden="true" class="icon docon docon-like"></span>
+						<span>Yes</span>
+					</button>
+					<button class="thumb-rating dislike button button-clear button-sm"
+						data-binary-rating-response="rating-no"
+						title="No"
+						data-bi-name="rating-no"
+						type="button"
+						data-bi-sat="0">
+						<span aria-hidden="true" class="icon docon docon-dislike"></span>
+						<span>No</span>
+					</button>
+				</div>
+			</div>
+			<div id="binary-verbatim-container" class="font-size-xs margin-top-xs">
+				<div class="verbatim-textarea">
+					<label for="binary-rating-textarea" class="visually-hidden">
+Any additional feedback?					</label>
+					<textarea
+						id="binary-rating-textarea"
+						data-binary-rating-text rows="4"
+						maxlength="999"
+						placeholder="Any additional feedback?"
+						class="textarea has-inner-focus"></textarea>
+				</div>
+				<p class="has-line-height-reset has-text-wrap">Feedback will be sent to Microsoft: By pressing the submit button, your feedback will be used to improve Microsoft products and services. <a href="https://privacy.microsoft.com/en-us/privacystatement">Privacy policy.</a></p>
+				<div class="buttons buttons-right margin-top-xs has-margin-right-extra-small">
+					<button class="submit-rating button button-primary button-filled button-sm" data-bi-name="rating-verbatim" data-binary-rating-submit type="submit" disabled>Submit</button>
+				</div>
+			</div>
+        </form>
+    </div>
+    <p
+		data-binary-rating-onsubmit-message="main-page-rating-container"
+		tabindex="-1"
+		class="margin-none inner-focus"
+		hidden>
+Thank you.    </p>
+</div>
+									</div>
+								</div>
+							</div>
+						<!-- end page rating section -->
+
+
+
+						<!-- recommendations section -->
+							<section id="recommendations-section" data-bi-name="recommendations"></section>
+						<!-- end recommendations section -->
+
+						<!-- feedback section -->
+						<!-- end feedback section -->
+
+						<!-- feedback report section -->
+						<!-- end feedback report section -->
+
+						<div class="border-top is-visible-interactive has-default-focus has-margin-top-large ">
+
+
+
+	<footer id="footer-interactive" data-bi-name="footer" class="footer-layout">
+	<div class="display-flex is-full-height has-padding-right-extra-large-desktop">
+			<a
+				data-mscc-ic="false"
+				class="locale-selector-link button button-clear flex-shrink-0"
+				href="#"
+				data-bi-name="select-locale">
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-world"></span>
+					</span>
+					<span class="local-selector-link-text"></span></a>
+		<div class="margin-inline-xs flex-shrink-0">
+<div class="dropdown has-caret-up">
+	<button class="dropdown-trigger button button-clear button-sm has-inner-focus theme-dropdown-trigger"
+		aria-controls="theme-menu-interactive" aria-expanded="false" title="Theme" data-bi-name="theme">
+		<span class="icon">
+			<span class="docon docon-sun" aria-hidden="true"></span>
+		</span>
+		<span>Theme</span>
+	</button>
+	<div class="dropdown-menu" id="theme-menu-interactive" role="menu">
+		<ul class="theme-selector has-padding-small">
+			<li class="theme is-block">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="light">
+					<span class="theme-light has-margin-right-small">
+						<span
+							class="theme-selector-icon css-variable-support border is-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span role="menuitem">
+Light					</span>
+				</button>
+			</li>
+			<li class="theme is-block">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="dark">
+					<span class="theme-dark has-margin-right-small">
+						<span
+							class="border theme-selector-icon css-variable-support is-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span role="menuitem">
+Dark					</span>
+				</button>
+			</li>
+			<li class="theme is-block">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="high-contrast">
+					<span class="theme-high-contrast has-margin-right-small">
+						<span
+							class="border theme-selector-icon css-variable-support is-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span role="menuitem">
+High contrast					</span>
+				</button>
+			</li>
+		</ul>
+	</div>
+</div>		</div>
+	</div>
+	<ul class="links" data-bi-name="footerlinks">
+		<li class="manage-cookies-holder" hidden></li>
+				<li><a data-mscc-ic="false" href="https://docs.microsoft.com/en-us/previous-versions/" data-bi-name="archivelink">Previous Version Docs</a></li>
+				<li><a data-mscc-ic="false" href="https://docs.microsoft.com/en-us/teamblog" data-bi-name="bloglink">Blog</a></li>
+				<li><a data-mscc-ic="false" href="https://docs.microsoft.com/en-us/contribute" data-bi-name="contributorGuide">Contribute</a></li>
+					<li><a data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-bi-name="privacy">Privacy &amp; Cookies</a></li>
+				<li><a data-mscc-ic="false" href="https://docs.microsoft.com/en-us/legal/termsofuse" data-bi-name="termsofuse">Terms of Use</a></li>
+				<li><a data-mscc-ic="false" href="https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/EN-US.aspx" data-bi-name="trademarks">Trademarks</a></li>
+		<li>&copy; Microsoft 2021</li>
+	</ul>
+</footer>
+						</div>
+					</div>
+
+						<div
+							class="font-size-sm right-container column is-4-desktop display-none display-block-desktop"
+							data-bi-name="pageactions"
+							role="complementary"
+							aria-label="Page Actions">
+
+							<div id="affixed-right-container" class="doc-outline is-vertically-scrollable">
+								<nav id="side-doc-outline" data-bi-name="intopic toc" role="navigation" aria-label="Article Outline">
+									<h3>In this article</h3>
+								</nav>
+							</div>
+						</div>
+
+				</div>
+				<!--end of div.columns -->
+
+			</section>
+			<!--end of .primary-holder -->
+
+			<!-- interactive container -->
+			<aside id="interactive-container" class="interactive-container is-visible-interactive column has-body-background-dark ">
+			</aside>
+			<!-- end of interactive container -->
+		</div>
+
+	</div>
+	<!--end of .mainContainer -->
+
+	<section class="border-top has-default-focus is-hidden-interactive has-margin-top-large ">
+
+
+
+	<footer id="footer" data-bi-name="footer" class="footer-layout uhf-container has-padding" role="contentinfo">
+	<div class="display-flex is-full-height has-padding-right-extra-large-desktop">
+			<a
+				data-mscc-ic="false"
+				class="locale-selector-link button button-clear flex-shrink-0"
+				href="#"
+				data-bi-name="select-locale">
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-world"></span>
+					</span>
+					<span class="local-selector-link-text"></span></a>
+		<div class="margin-inline-xs flex-shrink-0">
+<div class="dropdown has-caret-up">
+	<button class="dropdown-trigger button button-clear button-sm has-inner-focus theme-dropdown-trigger"
+		aria-controls="theme-menu" aria-expanded="false" title="Theme" data-bi-name="theme">
+		<span class="icon">
+			<span class="docon docon-sun" aria-hidden="true"></span>
+		</span>
+		<span>Theme</span>
+	</button>
+	<div class="dropdown-menu" id="theme-menu" role="menu">
+		<ul class="theme-selector has-padding-small">
+			<li class="theme is-block">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="light">
+					<span class="theme-light has-margin-right-small">
+						<span
+							class="theme-selector-icon css-variable-support border is-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span role="menuitem">
+Light					</span>
+				</button>
+			</li>
+			<li class="theme is-block">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="dark">
+					<span class="theme-dark has-margin-right-small">
+						<span
+							class="border theme-selector-icon css-variable-support is-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span role="menuitem">
+Dark					</span>
+				</button>
+			</li>
+			<li class="theme is-block">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="high-contrast">
+					<span class="theme-high-contrast has-margin-right-small">
+						<span
+							class="border theme-selector-icon css-variable-support is-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span role="menuitem">
+High contrast					</span>
+				</button>
+			</li>
+		</ul>
+	</div>
+</div>		</div>
+	</div>
+	<ul class="links" data-bi-name="footerlinks">
+		<li class="manage-cookies-holder" hidden></li>
+				<li><a data-mscc-ic="false" href="https://docs.microsoft.com/en-us/previous-versions/" data-bi-name="archivelink">Previous Version Docs</a></li>
+				<li><a data-mscc-ic="false" href="https://docs.microsoft.com/en-us/teamblog" data-bi-name="bloglink">Blog</a></li>
+				<li><a data-mscc-ic="false" href="https://docs.microsoft.com/en-us/contribute" data-bi-name="contributorGuide">Contribute</a></li>
+					<li><a data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-bi-name="privacy">Privacy &amp; Cookies</a></li>
+				<li><a data-mscc-ic="false" href="https://docs.microsoft.com/en-us/legal/termsofuse" data-bi-name="termsofuse">Terms of Use</a></li>
+				<li><a data-mscc-ic="false" href="https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/EN-US.aspx" data-bi-name="trademarks">Trademarks</a></li>
+		<li>&copy; Microsoft 2021</li>
+	</ul>
+</footer>
+	</section>
+
+	<div id="action-panel" role="region" aria-label="Action Panel" class="action-panel has-default-focus" tabindex="-1"></div>
+</body>
+</html>
