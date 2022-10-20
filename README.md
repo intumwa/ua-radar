@@ -1,12 +1,11 @@
 Crawled domains can be found at ./crawled_domains.json
 
 To test the similarity tool we developed:
-
+```
 cd similarity
-
 docker build -t similarity .
-
 docker run similarity
+```
 
 The default comparison is visual:
 ```
