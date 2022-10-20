@@ -1,4 +1,4 @@
-Crawled domains can be found at ./crawled_domains.json
+Crawled domains can be found at `./crawled_domains.json`
 
 To test the similarity tool we developed:
 ```
