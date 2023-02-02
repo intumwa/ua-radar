@@ -127,6 +127,7 @@ const compare = require('./index.js');
 ```
 
 **Comparing the HTML structure**
+
 The same approach goes to comparing the HTML structure:
 
 ```
