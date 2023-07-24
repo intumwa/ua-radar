@@ -1,6 +1,6 @@
 # UA-RADAR
 
-This repository contains a collection of artifacts that support the results and findings described in the submitted paper **\"It belongs in a museum!\": On the Relevancy of the User Agent in Today’s Web**. The artifacts include various forms of data and code that were used in the experiments, as well as detailed documentation and instructions to help others reproduce and validate the results.
+This repository contains a collection of artifacts that support the results and findings described in the submitted paper **\UA-Radar: Exploring the Impact of User Agents on the Web**. The artifacts include various forms of data and code that were used in the experiments, as well as detailed documentation and instructions to help others reproduce and validate the results.
 
 ## Crawled domains
 In this paper, a total of 12,000 domains were crawled to gather data and examine the relevance of the user agent on the web. The websites selected for crawling were randomly chosen from the [Tranco](https://tranco-list.eu/) list in April, 2022. A comprehensive list of the crawled domains can be found in the file `./crawled_domains.json`. We used [McAfee SmartFilter](https://sitelookup.mcafee.com/en/feedback/url?action=checksingle&sid=BF6DB84A3A60F9AEB8F69A93DA023455) to obtain the Internet categories of the crawled domains. Below is the list of the categories of the crawled domains.
