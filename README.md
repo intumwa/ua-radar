@@ -1,10 +1,10 @@
 # UA-RADAR
 
->**_Note (31/10/2024): we're extending UA-RADAR to include the capacity to filter out unncessary information from the browsing environment when the user visits a website. Check back soon for more details._**
+>**_Note (of 31/10/2024): we're extending UA-RADAR to include the capacity to filter out unncessary information from the browsing environment when the user visits a website. Check back soon for more details._**
 
 
 ## Running the crawl
-The [crawler (03/11/2024)](https://github.com/intumwa/crawler) repository provides the code and instructions on how to crawl websites prior to running UA-RADAR for similarity analysis.
+The [crawler (last updated on 03/11/2024)](https://github.com/intumwa/crawler) repository provides the code and instructions on how to crawl websites prior to running UA-RADAR for similarity analysis.
 
 ## About UA-RADAR
 
