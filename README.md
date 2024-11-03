@@ -2,6 +2,12 @@
 
 >**_Note (31/12/2024): we're extending UA-RADAR to include the capacity to filter out unncessary information from the browsing environment when the user visits a website. Check back soon for more details._**
 
+
+## Running the crawl
+The [crawler](https://github.com/intumwa/crawler) repository provides the code and instructions on how to crawl websites prior to running UA-RADAR for comparison.
+
+## About UA-RADAR
+
 This repository contains a collection of artifacts that support the results and findings described in the paper: [*UA-Radar: Exploring the Impact of User Agents on the Web*](https://arxiv.org/abs/2311.10420). The artifacts include various forms of data and code that were used in the experiments, as well as detailed documentation and instructions to help others reproduce and validate the results.
 
 ## Crawled domains
