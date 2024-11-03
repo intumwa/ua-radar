@@ -4,7 +4,7 @@
 
 
 ## Running the crawl
-The [crawler](https://github.com/intumwa/crawler) repository provides the code and instructions on how to crawl websites prior to running UA-RADAR for comparison.
+The [crawler](https://github.com/intumwa/crawler) repository provides the code and instructions on how to crawl websites prior to running UA-RADAR for similarity analysis.
 
 ## About UA-RADAR
 
