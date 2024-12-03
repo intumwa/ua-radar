@@ -84,6 +84,7 @@ Move into the directory `./similarity`,  build a Docker image and run it.
 
 ```
 cd similarity
+docker pull uaradar/similarity:latest
 docker build -t similarity .
 docker run similarity
 ```
